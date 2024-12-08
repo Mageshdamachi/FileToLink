@@ -32,5 +32,5 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "moviesstorem")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnvalue.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ebce6158c6087bd3543f2f89618af11325a9d6fc')
